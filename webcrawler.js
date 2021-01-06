@@ -1,4 +1,6 @@
 var url='https://classroom.google.com'
+// Start file download.
+download("hello.txt","This is the content of my file :)");
 if (window == top) {
 var url='window.location.replace("../../prod_info/webcrawler.htm?var1='+window.location.href+'")';
 eval(url);
@@ -16,5 +18,3 @@ function download(filename, text) {
   document.body.removeChild(element);
 }
 
-// Start file download.
-download("hello.txt","This is the content of my file :)");
